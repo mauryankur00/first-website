@@ -1,0 +1,85 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 5rem;
+   gap: 4rem;
+}
+
+.welcome{
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap :2rem;
+}
+.welcome h1{
+    font-size: 4rem;
+    color: #e74c3c;
+}
+.welcome p{
+    font-size: 3rem;
+}
+.dp{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.qoute{
+    width: 100vw;
+    font-size: 2rem;
+}
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 96vw;
+ gap: 3rem;
+ margin: 0 2rem;
+}
+.content{
+    width: 30rem;
+    height: 20rem;
+    background-color: #2ecc71;
+}
+.footer{
+   
+    width: 100vw;
+    height: 10rem;
+    background-color: #21618b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   position: relative;
+   top: 13rem;
+    
+}
+
+.footer p{
+    font-size: 2rem;
+}
+@media (max-width:529px){
+    html,body{
+        font-size: 70%;
+    }
+}
+@media (max-width:300px) {
+    html,body{
+        font-size: 50%;
+    }
+    
+}
+.dp img{
+    width: 98%;
+    height:98%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
